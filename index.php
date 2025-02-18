@@ -11,15 +11,7 @@ if( function_exists('error_reporting') ) {
 }
 
 @ini_set( "display_errors", \Zuz\Config::DEBUG );
-// @ini_set( "display_errors", 1 );
-// print_r(\Zuz\Email::Send(
-//     array('mail' => "zeviusdar@gmail.com", 'name' => "Zevius"),
-//     "Account created!",
-//     "<h2 style=\"font-weight: bold;font-size: 18px;\">Verify your email address</h2>",
-//     "app", null, true, true
-// ));
 
-// exit;
 \Zuz\Builder::Build(array(
     'DEBUG' => 1,
     'ROUTES' => array(
