@@ -1,0 +1,180 @@
+.account .signin{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.admin .cover{
+    top: 0px;
+    bottom: 0px;
+    transform: inherit;
+    left: 0px;
+    right: 0px;
+}
+.admin .sidebar{
+    flex: 1;
+    max-width: 250px;
+    height: 100vh;
+    border-right: 1px #ddd solid;
+    padding: 25px 0px;
+    top: 0px;
+}
+.admin .logo{
+    padding: 0px 25px;
+}
+.admin .logo .fav{}
+.admin .logo .fav img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.admin .nav{
+    margin: 25px 25px 25px 14px;
+}
+.admin .nav a{
+    padding: 10px 16px;
+    background: rgba(0,0,0,0);
+    margin-bottom: 2px;
+    border-radius: 15px;
+}
+.admin .nav a div{
+    width: 24px;
+    margin-right: 6px;
+}
+.admin .nav a:hover{
+    background: #f4f4f4;
+}
+.admin .acontent{
+    flex: 1;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.admin .dashboard{
+    padding: 20px;
+}
+.admin .page-title{
+    padding: 20px;
+}
+.admin .dashboard .stats{
+    padding: 20px;
+}
+.admin .dashboard .sts{
+    flex: 1;
+    margin: 0px 20px;
+}
+
+.uform{
+    width: 450px;
+    margin: 15px 25px 0px 25px;
+}
+.uform .app-checkbox{margin-right: 10px;}
+.uform .stc{
+    margin-bottom: 20px;
+}
+.uform .stc .lbl{margin-bottom: 6px;}
+.uform .group{
+    flex: 1;
+}
+.uform .group .stc{flex: 1;}
+.uform .group .spt{width: 15px;}
+
+.page-title ._l{flex: 1;}
+.page-title ._r{flex: 1;}
+.page-title ._r .search{
+    background: rgba(var(--colorh), 0.1);
+    border-radius: 5px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.page-title ._r .search .ico{
+    flex: 1;
+    height: 32px;
+    padding: 5px 8px;
+    border: 0;
+    background: rgba(0,0,0,0);
+    margin-right: 10px;
+    opacity: 0.5;
+}
+.page-title ._r .search .query{
+    border: 0;
+    padding: 6px 8px;
+    background: rgba(0,0,0,0);
+}
+.page-title ._r .search select{
+    border: 0;
+    padding: 6px 8px;
+    background: rgba(var(--colorh), 0.1);
+    margin-right: 5px;
+}
+.page-title ._r .search .icon-clear{display: none;}
+
+.payments .data-table .data-row,
+.aservers .data-table .data-row,
+.users .data-table .data-row{
+    min-height: 40px;
+}
+.payments .data-table .data-row .mrb,
+.aservers .data-table .data-row .mrb,
+.users .data-table .data-row .mrb{margin-bottom: 5px;}
+.payments .data-table .data-row .data-col,
+.aservers .data-table .data-row .data-col,
+.users .data-table .data-row .data-col{border: 0px;}
+.payments .data-table .data-row.data-row-head,
+.aservers .data-table .data-row.data-row-head,
+.users .data-table .data-row.data-row-head{
+    background: rgba(var(--colorh), 0) !important;
+}
+.aservers .data-table .data-row:hover,
+.users .data-table .data-row:hover{
+    cursor: auto !important;
+}
+.payments .data-table .data-row .col-id,
+.aservers .data-table .data-row .col-id,
+.users .data-table .data-row .col-id{max-width: 100px;}
+.users .data-table .data-row .col-blnc{max-width: 125px;}
+.users .data-table .data-row .col-stamp,
+.aservers .data-table .data-row .col-action,
+.users .data-table .data-row .col-action{max-width: 200px;}
+.users .data-table .data-row .col-fc,
+.users .data-table .data-row .col-bw{max-width: 130px;}
+.users .data-table .data-row h2.em{margin-top: 3px;}
+.users .data-table .data-row .pro-tip{
+    background: var(--color);
+    padding-left: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-left: 5px;
+}
+.users .data-table .data-row .pro-tip span{
+    background: rgba(0,0,0,0.1);
+    padding: 2px 6px;
+    margin-left: 2px;
+}
+@media only screen and (max-width: 480px) and (min-width: 320px){
+	
+    .hidem{display: none !important;}
+	.hided{display: block !important;display: flex !important;}
+
+    .dialogbox .msgbox{
+        max-width: 90%;
+        min-width: 90%;
+    }
+
+    .account {
+        margin: 100px 25px 50vh 25px;
+        flex-direction: column;
+    }
+    .account .block {
+        flex: 1;
+        padding: 0px;
+    }
+
+    .account .signup{
+        margin-left: 0px;
+        border: 0px;
+        border-top: 1px #c9e5ff solid;
+        padding-top: 30px;
+        border-radius: 0px;
+    }
+
+}
